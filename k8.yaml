@@ -63,7 +63,7 @@ status:
     status: "False"
     type: Available
   observedGeneration: 1
-  replicas: 1
+  replicas: 3
   unavailableReplicas: 1
   updatedReplicas: 1
 
