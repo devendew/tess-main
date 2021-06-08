@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 <small>[Compare with latest](https://github.com/Dev121212/tess-main/compare/5b6c2eee4338c409a598a26f116ef31c1cc1168d...HEAD)</small>
 
 ### Added
+- Adding changelog ([d9cbd20](https://github.com/Dev121212/tess-main/commit/d9cbd20ca6828745c5b60bcac3d58499d17dd955) by Devendra Dewangan).
 - Added contract swagger api not working due to werkzeug ([8d1d59f](https://github.com/Dev121212/tess-main/commit/8d1d59f0ab10941836c47279942974e7ebdf6fe9) by Devendra Dewangan).
 - Adding changelog changes ([776884f](https://github.com/Dev121212/tess-main/commit/776884f32847ffea88cffb51727d08a422d2b807) by Devendra Dewangan).
 - Added changelog.md ([39ddb8b](https://github.com/Dev121212/tess-main/commit/39ddb8b592dea9a5a507d8cd24f014246b85f47e) by Devendra Dewangan).
