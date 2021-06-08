@@ -1,15 +1,30 @@
+aniso8601==9.0.1
+attrs==21.2.0
+autopep8 @ file:///tmp/build/80754af9/autopep8_1620866417880/work
 certifi==2021.5.30
 chardet==4.0.0
-click==8.0.1
+click==7.1.2
+docopt==0.6.2
 Flask==2.0.1
+git-changelog==0.4.2
+gitdb==4.0.7
+GitPython==3.1.17
 idna==2.10
 itsdangerous==2.0.1
 Jinja2==3.0.1
+jsonschema==3.2.0
 MarkupSafe==2.0.1
 numpy==1.20.3
 opencv-python==4.4.0.46
 Pillow==8.2.0
+pycodestyle @ file:///tmp/build/80754af9/pycodestyle_1615748559966/work
+pyrsistent==0.17.3
 pytesseract==0.3.7
+pytz==2021.1
+PyYAML==5.4.1
 requests==2.25.1
+six==1.16.0
+smmap==4.0.0
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 urllib3==1.26.5
-Werkzeug==0.16.0
+Werkzeug==2.0.1
