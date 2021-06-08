@@ -8,4 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 <small>[Compare with latest](https://github.com/Dev121212/tess-main/compare/5b6c2eee4338c409a598a26f116ef31c1cc1168d...HEAD)</small>
 
+### Added
+- Added changelog.md ([39ddb8b](https://github.com/Dev121212/tess-main/commit/39ddb8b592dea9a5a507d8cd24f014246b85f47e) by Devendra Dewangan).
+
 
