@@ -1,0 +1,181 @@
+1049h;0;0t4;2m1h 25l;1H"/tmp/kubectl-edit-6qy7o.yaml" 68 lines, 1836 bytes# Please edit the object below. Lines beginning with a 
+'#' will be ignored, 2004h1004hr12h12lmmm
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+
+# reopened with the relevant failures.
+
+#
+
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+
+  annotations:
+
+    deployment.kubernetes.io/revision: "1"
+
+  creationTimestamp: "2021-06-08T08:10:25Z"
+
+  generation: 1
+
+  labels:
+
+    app: pricely
+
+  name: pricely
+
+  namespace: default
+
+  resourceVersion: "1104"
+
+  uid: 9fec05b0-f323-4f0d-b7ac-cebd9dafa746
+
+spec:
+
+  progressDeadlineSeconds: 600
+
+  replicas: 1
+
+  revisionHistoryLimit: 10
+
+  selector:
+
+    matchLabels:;7Happ: pricely
+
+  strategy:
+
+    rollingUpdate:;7HmaxSurge: 25%;7HmaxUnavailable: 25%
+
+    type: RollingUpdate
+
+  template:
+
+    metadata:;7HcreationTimestamp: null;7Hlabels:;9Happ: pricely
+
+    spec:;7Hcontainers:;7H- image: tess:v1;9HimagePullPolicy: IfNotPresent;9Hname: tess;9Hports:25hrPort: 4000;1H;1H25h25lr;1H
+
+r;11Hprotocol: TCP
+25h25lr;1H
+
+r;9Hresources: {}
+25h25lr;1H
+
+r;9HterminationMessagePath: /dev/termination-log
+25h25lr;1H
+
+r;9HterminationMessagePolicy: File
+25h25lr;1H
+
+r;7HdnsPolicy: ClusterFirst
+25h25lr;1H
+
+r;7HrestartPolicy: Always
+25h25lr;1H
+
+r;7HschedulerName: default-scheduler
+25h25lr;1H
+
+r;7HsecurityContext: {}
+25h25lr;1H
+
+r;7HterminationGracePeriodSeconds: 30
+25h25lr;1H
+
+r;1Hstatus:
+25h25lr;1H
+
+r;3Hconditions:
+25h25lr;1H
+
+r;3H- lastTransitionTime: "2021-06-08T08:10:25Z"
+25h25lr;1H
+
+r;5HlastUpdateTime: "2021-06-08T08:10:25Z"
+25h25lr;1H
+
+r;5Hmessage: Deployment does not have minimum availability.
+25h25lr;1H
+
+r;5Hreason: MinimumReplicasUnavailable
+25h;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H;1H1H1H1H1H1H1H1H25lr25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25lr;1H
+
+r;5Hreason: MinimumReplicasUnavailable
+25h25lr;1H
+
+r;5Hstatus: "False"
+25h25lr;1H
+
+r;5Htype: Available
+25h25lr;1H
+
+r;3H- lastTransitionTime: "2021-06-08T08:10:25Z"
+25h25lr;1H
+
+r;5HlastUpdateTime: "2021-06-08T08:10:25Z"
+25h25lr;1H
+
+r;5Hmessage: ReplicaSet "pricely-64cd7dfd48" is progressing.
+25h25lr;1H
+
+r;5Hreason: ReplicaSetUpdated
+25h25lr;1H
+
+r;5Hstatus: "True"
+25h25lr;1H
+
+r;5Htype: Progressing
+25h25lr;1H
+
+r;3HobservedGeneration: 1
+25h25lr;1H
+
+r;3Hreplicas: 1
+25h25lr;1H
+
+r;3HunavailableReplicas: 1
+25h25lr;1H
+
+r;3HupdatedReplicas: 1
+25h25lC25h25l-25h25l25h25l25h25l25h25l25h25l25h25l25h;21H;13H;21H;21H;18H;21H;21H;21H;21H;19H;19H;21H;21H;21H;21H;13H;7H;21H;21H;21H25l;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim
